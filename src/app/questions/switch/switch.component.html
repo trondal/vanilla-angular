@@ -11,6 +11,7 @@
               <mat-radio-button
                 (click)="onClicked(snippet, option)"
                 aria-label="Foo"
+                class="kn-radio"
                 *ngFor="let option of optionsGroups[snippet]"
                 [value]="option.id"
               >

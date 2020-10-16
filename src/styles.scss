@@ -42,6 +42,7 @@ $vanilla-angular-theme: mat-light-theme(
 @include angular-material-theme($vanilla-angular-theme);
 
 /* You can add global styles to this file, and also import other style files */
+@import "material-override.scss";
 
 html,
 body {

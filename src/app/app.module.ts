@@ -4,8 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from 'src/app/material.module';
 import { OptionsComponent } from './options/options.component';
+import { MaterialModule } from 'src/app/material.module';
 
 @NgModule({
   declarations: [AppComponent, OptionsComponent],
